@@ -8,4 +8,5 @@ def append_write(filename="", text=""):
     """
 
     with open(fliename, 'a', encoding="utf-8") as appendFile:
-        return appendFile.write(text)
+        appendFile.write(text)
+        return len(text)
